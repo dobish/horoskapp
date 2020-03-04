@@ -1,6 +1,7 @@
 <template>
 
         <v-app>
+            <vue-headful title="Horoskapp"/>
         <v-container class="pa-0 ma-0" max-width="100vw">
             <v-card     class="mx-auto"
                         max-width="100vw"

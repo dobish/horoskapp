@@ -5,8 +5,11 @@ import vuetify from './plugins/vuetify';
 import VueAxios from 'vue-axios'
 import axios from 'axios'
 import store from './store'
+import vueHeadful from 'vue-headful';
 
 Vue.use(VueAxios, axios)
+Vue.component('vue-headful', vueHeadful);
+
 
 Vue.config.productionTip = false
 
